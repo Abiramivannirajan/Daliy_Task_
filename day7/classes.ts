@@ -1,16 +1,14 @@
 
-
-
 // struture of class
 //A class can include
 //constructor
 //properties
 //methods
-class employee1{
+class employee11{
     name: string="abi";
 
 }
- const employee= new employee1();
+ const employee= new employee11();
  console.log(employee.name);
 
  //The constructor method is a special method:
@@ -20,7 +18,7 @@ class employee1{
 //It is used to initialize object properties
 
 //example
-class  person1
+class  person
 {
    personid:number;//class variable
    personname:string;
@@ -35,7 +33,7 @@ display():void{
 }
 
 }
-var newperson= new person1();// object creation
+var newperson= new person();// object creation
 newperson.personid=105;
 newperson.personname="abi";
 newperson.personno=11;

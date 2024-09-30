@@ -9,9 +9,6 @@ for(let j=0; j<=10;j=j+2){
   
 }
 
-
-
-
 //for... of loop:
 let numbers=[10,200,3000,40000];
 for(let n of numbers){

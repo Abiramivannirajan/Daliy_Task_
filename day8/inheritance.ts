@@ -1,6 +1,6 @@
 
 //A class can reuse the properties and methods of another class. This is called inheritance in TypeScript.
-class property1{
+class property{
     firstName:string;
     lastName:string;
     age:number;
@@ -17,13 +17,13 @@ constructor( firstName: string, lastName: string , age: number) {
          return ` ${this.firstName} ${this.lastName},${this.age}`;
     }
 }
-let Pro1 = new property("nith","abi",90);
+let Pro = new property("nith","abi",90);
 console.log(Pro.getId());
 
 // example:
     
 // Base class
-class Animal1 {
+class Animal {
     name: string;
 
     constructor(name: string) {
@@ -36,7 +36,7 @@ class Animal1 {
 }
 
 // Derived class
-class Dog extends Animal1 {
+class Dog1 extends Animal{
     // Overriding the speak method
     speak(): void {
         console.log(`${this.name} barks.`);
@@ -44,7 +44,7 @@ class Dog extends Animal1 {
 }
 
 // Another derived class
-class Cat extends Animal1 {
+class Cat1 extends Animal{
     // Overriding the speak method
     speak(): void {
         console.log(`${this.name} meows.`);
@@ -52,11 +52,11 @@ class Cat extends Animal1 {
 }
 
 // Creating instances of Dog and Cat
-const dog = new Dog("Buddy");
-const cat = new Cat("Whiskers");
+const dog1 = new Dog1("Buddy");
+const cat1 = new Cat1("Whiskers");
 
-dog.speak(); // Output: Buddy barks.
-cat.speak(); // Output: Whiskers meows.
+dog1.speak(); // Output: Buddy barks.
+cat1.speak(); // Output: Whiskers meows.
 
 //A class can reuse the properties and methods of another class. This is called inheritance in TypeScript.
 class property1{

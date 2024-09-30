@@ -73,7 +73,7 @@ class DerivedClass extends Person4 {
 }
 
 // Create an instance of DerivedClass and log the result
-let derived = new DerivedClass("John", "Doe",true);
+let derived = new DerivedClass("abi", "ram",true);
 console.log(derived.getInfo()); // This will print: true
 
 
