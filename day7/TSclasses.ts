@@ -41,3 +41,5 @@ newperson.personname="abi";
 newperson.personno=11;
 
 newperson.display();
+
+
