@@ -1,0 +1,10 @@
+var result;
+var pend = true;
+var notpend = !pend;
+console.log(result);
+var haserror = false;
+var completed = true;
+result = completed && haserror;
+console.log(result);
+result = completed || haserror;
+console.log(result);

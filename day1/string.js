@@ -1,0 +1,10 @@
+var ni = "meow";
+var num = 55;
+console.log(num);
+var n2 = "college";
+var n3 = 88;
+console.log(n2);
+var n4 = "temple";
+var n5 = "muruga";
+var n6 = "80";
+console.log(n5);
