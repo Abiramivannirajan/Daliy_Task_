@@ -1,3 +1,4 @@
+//union
 //example
 function str(q, r) {
     if (typeof q === 'number' && typeof r === 'number') {

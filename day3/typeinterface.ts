@@ -1,6 +1,6 @@
 // basic of typeinterface
-let counter = 42; 
-let greeting = "Hello, world!"; 
+let counter:number = 42; 
+let greeting:string = "Hello, world!"; 
 console.log(counter);
 console.log(greeting);
 

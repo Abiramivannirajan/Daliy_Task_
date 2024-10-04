@@ -18,7 +18,7 @@ class employee11{
 //It is used to initialize object properties
 
 //example
-class  person
+class  person33
 {
    personid:number;//class variable
    personname:string;
@@ -33,7 +33,7 @@ display():void{
 }
 
 }
-var newperson= new person();// object creation
+var newperson= new person33();// object creation
 newperson.personid=105;
 newperson.personname="abi";
 newperson.personno=11;

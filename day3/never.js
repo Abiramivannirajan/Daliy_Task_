@@ -20,7 +20,7 @@ var authorize1 = function (role) {
         case 'admin':
             return 'You can do anything';
         case 'user':
-            return 'You can do something';
+            return 'You can do   something';
         case 'guest':
             return 'You can do nothing';
         default:

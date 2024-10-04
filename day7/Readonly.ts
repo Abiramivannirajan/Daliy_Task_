@@ -1,5 +1,4 @@
 
-
 // struture of class
 //A class can include
 //constructor
