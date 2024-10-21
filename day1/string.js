@@ -1,4 +1,4 @@
-var ni = "meow";
+var n1 = "meow";
 var num = 55;
 console.log(num);
 var n2 = "college";

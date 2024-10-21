@@ -5,8 +5,8 @@ skills.push("thirsha"); //push method
 console.log(skills);
 var skills1 = [];
 skills1[0] = "abi";
-skills1[1] = "rahul";
-skills1.push("sugu");
+skills1[1] = "nithu";
+skills1.push("vidhu");
 console.log(skills1);
 var skill = ['abi', 23, true];
 console.log(typeof (skill[2])); //string,number,boolean [skill[0,1,2]]

@@ -22,7 +22,7 @@ function calnumber(a: number, b: number,c:number):number{
     let total:number=a+b-c;
     return total;
 }
-let result:number=calnumber(60,66,88);
+let results:number=calnumber(60,66,88);
 console.log(result);
 
 
@@ -48,7 +48,7 @@ if(target("vidhya")){
 function add6(a:number,b:number):void{//2 param
     console.log(a+b);//3// void type
 }
-add1(39,90);
+add(39,90);
  
 
 

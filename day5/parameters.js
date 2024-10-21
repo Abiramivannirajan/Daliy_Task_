@@ -3,7 +3,7 @@ function information(firstname, age) {
     return firstname + " " + age;
 }
 console.log(information('abi')); //abi undefined
-console.log("tom", 39);
+console.log("tom", 39); // tom 39
 //default params:
 function detail(name, message) {
     if (message === void 0) { message = "welcome"; }

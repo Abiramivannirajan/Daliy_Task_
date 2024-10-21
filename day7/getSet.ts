@@ -1,7 +1,7 @@
 //Getters allow you to retrieve the value of a property.
 //Setters allow you to set or modify the value of a property.
 
-class Per {
+class Per1 {
     private _name: string;  // Private property
 
     constructor(name: string) {
@@ -17,12 +17,16 @@ class Per {
     set name(newName: string) {
         this._name = newName;
     }
+
+    // get name(){
+    //     return this.name;
+    // }
 }
 
 // Usage
-const p= new Per("Alice");
+const p= new Per("abi");
 
-console.log(p.name); // Using the getter: Outputs "Alice"
+console.log(p.name); // Using the getter: Outputs "Abi"
 
-p.name = "Bob";      // Using the setter to change the name
-console.log(p.name); // Outputs "Bob"
+p.name = "vidhya";      // Using the setter to change the name
+console.log(p.name); // Outputs "vidhya"

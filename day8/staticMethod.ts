@@ -1,5 +1,5 @@
 //the static method is used when the class should have the single copy of that instance
-// the static method cannot be accessed by the instance of he class
+// the static method cannot be accessed by the instance of class
 // it can be accessed by the class name itself
 
 // creating a class and keep the age a static
@@ -22,7 +22,7 @@ console.log(Patient_details.age);//the age is static thus we cannot access it by
 
 // thus the code throws the error
 
-class patient_Details{
+class patient_Detail{
     name:string="ABI"
     static:age:number=22;
 
@@ -35,7 +35,7 @@ class patient_Details{
         
     }
 }
-const Patient_details=new patient_Details
+const Patient_detail=new patient_Details
 Patient_details.display_name()
 console.log(patient_Details.age);//accessing the age directly using the class name
 Patient_details.display_age()//accessing the age through the display_age metod

@@ -25,4 +25,4 @@ greeting1 = function (name) {
     return "hi ".concat(name);
 };
 console.log(greeting1("abiiiiiiii"));
-//
+

@@ -25,7 +25,7 @@ let person2: {
   };
   
   person4 = {
-    name: 'seeni',
+    name:'seeni',
     age: 25,
   }
   console.log(person4)
